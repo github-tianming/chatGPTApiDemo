@@ -15,7 +15,7 @@ public class ApiDemo {
                 .url("https://api.openai.com/v1/engines/davinci-codex/completions")
                 .post(body)
                 .addHeader("Content-Type", "application/json")
-                .addHeader("Authorization", "Bearer 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")
+                .addHeader("Authorization", "Bearer XXXXXXX")
                 .build();
 
         Response response = client.newCall(request).execute();
